@@ -61,7 +61,10 @@ x = ({"apple", "banana", "cherry"}) #frozenset """
 
 Everyone = "please slient"
 print(Everyone)
-'''hi'''
+
+Love = 25+62.21
+print(Love)
+
 
 
 
