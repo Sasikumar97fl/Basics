@@ -124,3 +124,77 @@ The comparison operators are also called as relational operator. these operators
 # >= if the value of left operand is greater than or equal to the value of right operand, then condition becomes true. eg: (a>=b)is not true.
 # <= If the value of left operand is less than or equal to the value of right operand, then condition becomes true. eg: (a<=b)is true.
 
+salary = 7500
+bonus = 7400
+print(salary == bonus)
+
+print(salary != bonus)
+
+print(salary > bonus)
+
+print(salary < bonus)
+
+print(salary >= bonus)
+
+print(salary <= bonus)
+
+''' Python Logical Operators'''
+
+# Logical operators are used to combine conditional statements:
+
+# and - Description "Returns True if both statements are true" - Eg: x < 5 and x < 10
+# or  - Description "Returns True if one of the statements is true" - Eg: x < 5 or x < 4
+# not - Description "Reverse the result, returns False if the result is true" - Eg: not(x<5 and x<10)
+
+# Eg codes:
+
+x = 10
+print (x < 5 and x < 10)
+
+print (x < 5 or x < 4)
+
+print (not(x < 5 and x < 10))
+
+''' Python Identity Operators'''
+
+# Identity operators are two types * is * is not
+# Identity operators are used to compare the objects, not if they are equal, but if they are actually the same object, with the same memory location:
+
+# is - description "Returns True if both variables are the same object - eg: x is y
+# is not - description "Returns True if both variables are not the same object" - eg: x is not y
+
+# Eg codes:
+
+salary = 850202
+bonus = 8
+x2 = "Data Science"
+y2 = "Data Science"
+
+print(id(x2))
+print(id(y2))
+
+x3 = [4,5,690]
+y3 = [4,5,690]
+
+print(id(x3))
+print(id(y3))
+
+print(salary is not bonus)
+print(x2 is y2)
+print(id(x3 is y3))
+
+''' Python Membership Operators
+Membership operators are used to test if a sequence is presented in an object
+Python membership operators are used to check whether a value is a member of a sequence. Here the sequence may be a list a string or a tuple.
+There are two membership operators - 'in' and 'not in'  '''
+
+# in - Description "Returns True if a sequence with the specified value is present in the object" - eg: x in y
+# not in - Description "Returns True if a sequence with the specified value is not present in the object" - eg: x not in y
+
+# Eg Codes:
+
+list_of_leaders = ["Jeeva", "Dhanush", "Kamaraj", "Nehru", "Gandhi"]
+print("Jeeva" in list_of_leaders)
+print("AAA" in list_of_leaders)
+print("AAA" not in list_of_leaders)
+
